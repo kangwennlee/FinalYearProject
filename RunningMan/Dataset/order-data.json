@@ -1,0 +1,120 @@
+{
+    "client_name" : "Carlos Michael",
+    "comments" : "",
+    "payment" : {
+        "amount" : 29.15,
+        "gst" : 1.65,
+        "surcharge" : 0,
+        "delivery_cost" : 4,
+        "subtotal" : 23.5,
+        "mode" : "cash"
+    },
+	"delivery_time" : {
+        "time" : "1:28 pm",
+        "date" : "6/29/2017",
+        "schedule" : "ASAP"
+    },
+    "delivery_address_coordinate" : {
+        "lng" : 101.753377,
+        "lat" : 3.112054
+    },
+    "delivery_address" : {
+        "postcode" : "",
+        "city" : "Cheras",
+        "street" : "Glenview Villa Apartment A8-10, Jalan 49 Off Jalan Kuari, Taman Pinggiran"
+    },
+    "contact" : {
+        "number" : "129792188",
+        "email" : "steph_k1982@hotmail.com",
+        "lname" : "Yap",
+        "fname" : "Stephanie"
+    },
+    "task" : [ 
+        {
+            "shop_address" : "81G, Jalan Pandan Indah 4/6B",
+            "shop_name" : "Qian Qian Little Kitchen",
+            "shop_coordinate" : {
+                "lng" : 101.7524195,
+                "lat" : 3.1316746
+            },
+            "item" : [ 
+                {
+                    "instruction" : "No salt",
+                    "item_estimate" : "5 - 10",
+                    "item_desc" : "The best pan mee of the town only available in Qian Qian Little Kitchen",
+                    "item_image" : "default.png",
+                    "item_name" : "QQ02-Qian Qian Pan Mee Soup",
+                    "remarks" : "",
+                    "status" : 1,
+                    "merchant_cost" : 5.85,
+                    "quantity" : 1,
+                    "add_on" : []
+                }, 
+                {
+                    "instruction" : "",
+                    "item_estimate" : "5 - 10",
+                    "item_desc" : "The best pan mee of the town only available in Qian Qian Little Kitchen",
+                    "item_image" : "default.png",
+                    "item_name" : "QQ02-Qian Qian Pan Mee Soup",
+                    "item_id" : ObjectId("5951d31b4da8bf439040ad00"),
+                    "taskdeliveryto" : {
+                        "lng" : 0,
+                        "lat" : 0,
+                        "time" : "",
+                        "date" : "",
+                        "address" : ""
+                    },
+                    "taskdeliveryfrom" : {
+                        "lng" : 0,
+                        "lat" : 0,
+                        "time" : "",
+                        "date" : "",
+                        "address" : ""
+                    },
+                    "remarks" : "",
+                    "status" : 1,
+                    "merchant_cost" : 5.85,
+                    "quantity" : 1,
+                    "add_on" : [ 
+                        {
+                            "name" : "Add Rice",
+                            "quantity" : 1,
+                            "cost_price" : 0.9,
+                            "price" : 2
+                        }
+                    ]
+                }
+            ],
+            "status" : 0,
+            "transaction_type" : "Order"
+        }, 
+        {
+            "_id" : ObjectId("5954901d685f8f258072f78a"),
+            "shop_address" : "D27 Jalan Bunga Tanjung 10,Taman Muda 68000 Ampang Sel.",
+            "shop_name" : "Bean Bean Dessert House",
+            "shop_id" : ObjectId("5928127871966910980d6063"),
+            "shop_coordinate" : {
+                "lng" : 101.763482093811,
+                "lat" : 3.12568958988618
+            },
+            "item" : [ 
+                {
+                    "instruction" : "",
+                    "item_estimate" : "5 - 10",
+                    "item_desc" : "Homemade nutritious and perservative-free soya",
+                    "item_image" : "1498537705124.jpg",
+                    "item_name" : "BB5 Bean Bean Soya Bean 豆记豆浆水 (500ml)",
+                    "item_id" : ObjectId("592a3b8c13b5fd88832194c6"),
+                    "remarks" : "",
+                    "status" : 1,
+                    "merchant_cost" : 2.25,
+                    "quantity" : 1,
+                    "add_on" : []
+                }
+            ],
+            "status" : 0,
+            "transaction_type" : "Order"
+        }
+    ],
+    "transaction_date" : ISODate("2017-06-29T05:29:01.939Z")
+}

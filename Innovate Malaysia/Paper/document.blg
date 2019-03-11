@@ -1,0 +1,18 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: document.aux
+The style file: IEEEtran.bst
+Database file #1: reference.bib
+Repeated entry---line 137 of file reference.bib
+ : @misc{Idc2014-ey
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 241 of file reference.bib
+ : @misc{Satell2014-mg
+ :                    ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in Raorane2011-xu
+
+Done.
+(There were 2 error messages)
